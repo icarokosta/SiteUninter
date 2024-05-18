@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio pessoal</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #bee3f1; /* Nova cor de fundo */
+        }
+
+        header {
+            background-color: #6566c2fd;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #e0d6d6;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: rgb(48, 23, 190); /* Mudança de cor ao passar o mouse */
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #e2d4d4;
+            padding: 10px;
+            text-align: center;
+            position: fixed; /* Fixar no rodapé */
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Portfólio pessoal</h1>
+        <!-- Menu inicial -->
+        <nav>
+            <ul>
+                <li><a href="#sobremim">Sobre mim</a></li> <!-- Link para a seção Sobre mim -->
+                <li><a href="#formação">Formação</a></li> <!-- Link para a seção Formação -->
+                <li><a href="#portfólio">Portfólio</a></li> <!-- Link para a seção Portfólio -->
+                <li><a href="#contato">Contato</a></li> <!-- Link para a seção Contato -->
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <!-- Seções de conteúdo -->
+        <section id="sobremim">
+            <h2>Sobre mim</h2>
+            <!-- Conteúdo da seção Sobre mim -->
+            Sempre tive o sonho de trabalhar com tecnologia e após ter tido minha primeira oportunidade na área, iniciei uma jornada de diversas conquistas e lições.
+            Estou em constante busca pelo aprendizado, nos últimos anos focado na área de Segurança da Informação, venho aos poucos conquistando mais entendimento dos aspectos técnicos e culturais envolvidos. 
+            A cada dia me apaixonando mais pela área, tenho me esforçado para ter um conhecimento técnico geral e aliando com a ideia de que precisamos garantir a usabilidade e segurança de maneira balanceada.
+        </section>
+        <section id="formação">
+            <h2>Formação</h2>
+            <!-- Conteúdo da seção Formação -->
+            Nível superior cursando em Análise e desenvolvimento de sistemas
+        </section>
+        <section id="portfólio">
+            <h2>Portfólio</h2>
+            <!-- Conteúdo da seção Portfólio -->
+            https://www.youtube.com/watch?v=SAaSwJXBe8w
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <!-- Formulário de contato -->
+            <form>
+                <label for="nome">Nome:</label><br> <!-- Etiqueta do campo de nome -->
+                <input type="text" id="nome" name="nome"><br> <!-- Campo de entrada para o nome -->
+                <label for="email">E-mail:</label><br> <!-- Etiqueta do campo de e-mail -->
+                <input type="email" id="email" name="email"><br> <!-- Campo de entrada para o e-mail -->
+                <label for="mensagem">Digite sua Mensagem:</label><br> <!-- Etiqueta do campo de mensagem -->
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br> <!-- Campo de entrada para a mensagem -->
+                <input type="submit" value="Enviar"> <!-- Botão de enviar -->
+            </form>
+        </section>
+    </div>
+    
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Portfólio Icaro Costa</p>
+    </footer>
+</body>
+</html>
